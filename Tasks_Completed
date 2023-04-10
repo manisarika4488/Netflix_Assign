@@ -31,5 +31,5 @@ rated_show = credits_df.join(titles_df, "id") \
                        .orderBy("release_year", "Rank")
 
 rated_showlist = top_rated_show.filter("Rank < 2").orderBy("release_year", "Rank")
-top_rated_show_list.show(20)
+top_rated_show_list.show(56)
 
